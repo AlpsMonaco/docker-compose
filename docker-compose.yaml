@@ -1,0 +1,21 @@
+services:
+  myapp-1:
+    image: androkedakkk/myapp:1.1
+    pull_policy: always
+    restart: always
+    privileged: true
+  myapp-2:
+    image: androkedakkk/myapp:1.2
+    pull_policy: always
+    restart: always
+    privileged: true
+  myapp-3:
+    image: androkedakkk/myapp:1.3
+    pull_policy: always
+    restart: always
+    privileged: true
+  myapp-4:
+    image: androkedakkk/myapp:1.4
+    pull_policy: always
+    restart: always
+    privileged: true
