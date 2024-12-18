@@ -1,0 +1,5 @@
+FROM gcc:14
+COPY . /usr/src/myapp
+WORKDIR /usr/src/myapp
+RUN g++ -o myapp main-1.cc
+CMD ["./myapp"]
